@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="js/variabel.js"></script>
+    <script src="js/index.js"></script> -->
+    <!-- <script src="js/dom.js"></script> -->
+    <title>Belajar JavaScript</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1></h1>
+            <p></p>
+        </div>
+        
+        <!-- event handler : html only -->
+        <div class="content">
+            <h2 onclick="tampil()" id="tittle"></h2>
+            <p class="value"></p>
+            
+            <!-- event handler : html + js -->
+            <input id="klik" type="button" value="Klik saya">
+            
+            <p class="result"></p>
+            
+            <!-- event handler dengan this -->
+            <button onclick="Tampil(this.innerHTML)">KLIK UNTUK CETAK</button>
+            <p class="print"></p>
+            
+            <!-- eventlistener -->
+            <h2 id="judul" >klik untuk eventlistener</h2>
+            <p class="isi"></p>
+        </div>
+            
+    </div>
+
+    <!-- source file JS -->
+    <!-- <script src="js/dom.js"></script>
+    <script src="js/event.js"></script> -->
+    <script src="js/eventlistener.js"></script>
+</body>
+</html>
