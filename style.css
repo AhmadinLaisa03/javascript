@@ -1,0 +1,402 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: #a52a2a;
+}
+
+.header{
+    border-bottom: 1px solid brown;
+}
+
+.logo img{
+    width: 140px;
+    display: block;
+    margin: auto;
+   
+}
+
+.nav-left li, .nav-right li{
+    padding: 10px;
+}
+
+.nav-left li:hover, .nav-right li:hover{
+    background-color: rgba(169, 169, 169, 0.26);
+}
+
+@media screen and (min-width: 560px)
+{
+    .header{
+        position: fixed;
+        background-color: #ffffff;
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+        padding-bottom: 0px;
+        justify-content: space-between;
+        display: flex;
+        border: none;
+        box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.205);
+    }
+
+    .logo img{
+        margin: -10px -70px 3px 10px;
+    }
+
+    .nav-left {
+        margin-right: 500px;
+    }
+
+    .nav-left ul, .nav-right ul{
+        display: flex;
+    }
+
+    .nav-left li:hover, .nav-right li:hover{
+        background-color: rgba(169, 169, 169, 0.26);
+        border-bottom:2px inset #a52a2a;
+    }
+}
+
+/* main style */
+
+.main{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #a52a2a;
+}
+
+.main-left img{
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.main-right{
+    text-align: center;
+    margin-top: 10px;
+    color: #a52a2a;
+}
+
+.main-right h2{
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width:560px){
+
+    .main{
+        width: 960px;
+        margin: auto;
+        display: flex;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        /* margin-bottom: 200px; */
+        justify-content: center;
+        border-bottom: 1px solid #a52a2a;
+    }
+
+    .main-left img{
+        width: 500px;
+    }
+
+    .main-right{
+        margin: auto;
+        margin-left: -20px;
+        text-align: left;
+        color: #a52a2a;
+    }
+
+    .main-right h2{
+        transition: 0.5s;
+        font-size: 40px;
+        margin-bottom: 10px;
+        text-decoration: underline;
+    }
+
+    .main-right h2:hover{
+        margin-bottom: 20px;
+        text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.37);
+        transition: 0.5s;
+    }
+
+    .main-right p{
+        transition: 0.5s;
+        font-size: 15px;
+    }
+
+    .main-right p:hover{
+        font-size: 17px;
+        text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.37);
+        transition: 0.5s;
+    }
+}
+
+/* product */
+
+.display{
+    margin-top: 4%;
+    margin-bottom: 30px;
+    text-align: center;
+    color: coral;
+}
+
+.image img{
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.produk-konten{
+    text-align: center;
+}
+
+.title, .harga{
+    color: rgb(69, 85, 102);
+    
+}
+
+.desc{
+    color: #a52a2a;
+    font-size: 15px;
+}
+
+@media(min-width:560px){
+    .produk{
+        width: 960px;
+        margin: auto;
+        margin-top: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .image img{
+        width: 170px;
+        height: 170px;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .produk-konten{
+        height: 300px;
+    }
+
+    .produk-konten .title{
+        font-size: 14px;
+    }
+
+    .display{
+        font-size: 30px;
+    }
+}
+
+/* info */
+
+.info{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon img{
+    width: 55px;
+    display: block;
+    margin-right: 20px;
+}
+
+.info-content{
+    display: flex;
+    width: 200px;
+    height: 70px;
+    align-items: center;
+}
+
+.infoisi h2{
+    font-size: 15px;
+    color: rgb(69, 85, 102);
+}
+
+.infoisi p{
+    font-size: 12px;
+    color:rgb(75, 71, 71);
+}
+
+@media screen and (min-width:560px){
+    .info{
+        width: 960px;
+        margin: auto;
+        padding-left: 80px;
+        margin-top: 90px;
+        justify-content: space-between;
+    }
+} 
+
+/* medsos */
+
+.medsos{
+    margin-top: 70px;
+}
+
+.medsos form{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #a52a2a;
+    color: aliceblue;
+    border: 0px solid #ffffff;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.inp{
+    width: 200px;
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 3px;
+}
+
+.medsos form input[type="email"]{
+    padding: 4px;
+}
+
+.medsosisi{
+    margin: 5px;
+    text-align: center;
+}
+
+.medsosicon{
+    display: flex;
+    justify-content: center;
+}
+
+.medsosicon img{
+    width: 30px;
+    margin: 5px 10px 5px 10px;
+}
+
+@media  screen and (min-width:560px) {
+    .btn{
+        background-color: #a52a2a;
+        color: aliceblue;
+        border: 0px solid #ffffff;
+        border-radius: 3px;
+        padding: 8px;
+        margin-left: 10px;
+    }
+    
+    .inp{
+        width: 400px;
+        height: 35px;
+        border: 1px solid rgba(0, 0, 0, 0.267);
+        border-radius: 3px;
+    }
+}
+
+/* footer */
+
+footer{
+    margin-top: 50px;
+    border-top: 1px solid #a52a2a;
+    background-color: #ffffff;
+    display: flex;
+    padding: 5px;
+}
+
+.logobank img{
+    width: 70px;
+}
+
+.identitas{
+    flex: 1;
+}
+
+.sitemap{
+    flex: 1;
+}
+
+.sitemap li{
+    padding-top: 15px;
+}
+
+.sitemap li a{
+    color: rgb(161, 161, 161);
+}
+
+.sitemap li a:hover{
+    text-decoration: underline;
+}
+
+.payment{
+    flex: 1;
+}
+
+.sitemap h2, .identitas h2{
+    font-size: 15px;
+    color: rgb(116, 116, 116);
+}
+
+.identitas p{
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+    padding-top: 15px;
+}
+
+.payment{
+    margin-left: -40px;
+}
+
+.bank {
+    margin-bottom: 15px;
+}
+
+.bank p{
+    font-size: 10px;
+    color: rgb(161, 161, 161);
+}
+
+.bank h3{
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+}
+
+@media  screen and (min-width:560px){
+    footer{
+        width: 960px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .sitemap h2, .identitas h2{
+        font-size: 18px;
+    }
+
+    .identitas p{
+        font-size: 16px;
+    }
+
+
+}
+
+.btn-beli > button{
+    font-size:large;
+    width: 50px;
+    height: 30px;
+}
+
+
+
+
+
+
+

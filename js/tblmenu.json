@@ -1,0 +1,14 @@
+[
+    {
+        "idmenu": 1,
+        "idkategori": 1,
+        "menu" : "soto",
+        "harga": 7000
+    },
+    {
+        "idmenu": 2,
+        "idkategori": 2,
+        "menu" : "pecel",
+        "harga": 7000
+    }
+]
